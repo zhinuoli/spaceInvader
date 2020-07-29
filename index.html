@@ -1,131 +1,291 @@
+  
 <!DOCTYPE html>
-<html>
+<html lang="en">
+
 <head>
-<style>
-#header {
-    background:#005480;
-    color:white;
-    text-align:center;
-    padding:4px;
-    font-size:20px;
-    font-family:"Comic Sans MS";
-}
-#content { scrolling: yes;
-background:#E6E6FA;
-color:#ffffb3;
-width:100%;
-height:700px; 
-Float:left;
-text-align:center;
-font-family:"Comic Sans MS";
-overflow:scroll;
-}
-#footer { background:#aaaaaa;}
-
-table{
-color:#ff6666;
-font-family:"Comic Sans MS";
-width:80%;
-    border: solid 10px #d2a77a;
-}
-table td {
-    border: dashed 2px #0000ff;
-}
-tr:nth-child(even){background-color: #99ddff}
-tr:nth-child(odd){background-color: #ffb3ff}
-th {
-    background-color: #4CAF50;
-    color: white;
-}
-td:hover{background-color:white}
-</style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Zero to Mastery -Our HTML Project</title>
+    <link rel="icon" href="resources\images\logo.png" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css" />
+    <link rel="stylesheet" href="resources/style/particles.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+        integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Lora|Montserrat&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Lora|Montserrat&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css">
+    <link rel="stylesheet" href="resources/style/style.css" />
+    <!-- Font Awsome CSS -->
+    <link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
-<body link=blueviolet vlink=purple alink=green>
-<center>
-<div id="header">
-<h1>About</h1>
-</div>
 
-<div id="content">
-<h1>Schedule</h1>
-<br>
-<table align="center">
-  <tr>
-    <th>Monday</th>
-    <th>Tuesday</th>
-    <th>Wednesday</th>
-    <th>Thursday</th>
-    <th>Friday</th>
-  </tr>
-  <tr>
-    <td>ELD 3</td>
-    <td>ELD 3</td>
-    <td>ELD 3</td>
-    <td>ELD 3</td>
-    <td>ELD 3</td>
-  </tr>
-  <tr>
-    <td>Mdrn Wld His</td>
-    <td>Mdrn Wld His</td>
-    <td>Mdrn Wld His</td>
-    <td>Mdrn Wld His</td>
-    <td>Mdrn Wld His</td>
-  </tr>
-  <tr>
-    <td>ELD 3</td>
-    <td>ELD 3</td>
-    <td>ELD 3</td>
-    <td>ELD 3</td>
-    <td>ELD 3</td>
-  </tr>
-  <tr>
-    <td>Alg 2 H</td>
-    <td>Alg 2 H</td>
-    <td>Alg 2 H</td>
-    <td>Alg 2 H</td>
-    <td>Alg 2 H</td>
-  </tr>
-  <tr>
-    <td>Computer Science</td>
-    <td>Computer Science</td>
-    <td>Computer Science</td>
-    <td>Computer Science</td>
-    <td>Computer Science</td>
-  </tr>
-  <tr>
-    <td>Tennis</td>
-    <td>Tennis</td>
-    <td>Tennis</td>
-    <td>Tennis</td>
-    <td>Tennis</td>
-  </tr>
-</table>
-<br>
-<h1>what you like to do</h1>
-<ul>
-<li>Read more books
-<li>Sleep more
-<li>Eat less snacks
-<li>Read more newspaper!
-</ul>
-<br>
-<h1>Image of myself</h1>
-<br>
-<br>
-<h1>HOHOHO! My friends's link</h1>
-<br>
-<a href=http://katelynmaykhaing.atwebpages.com>May</a>
-<a href=http://arielliu.atwebpages.com>Ariel</a>
-<a href=http://willt.atwebpages.com>Will</a>
-<a href=http://teachers.ausd.net/cavenshen>Mr. Shen</a>
-<br>
-<br>
-</div>
+<body>
+    <!-- navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+        <a class="navbar-brand" href="index.html"><img src="resources/images/logo.png" alt=""></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="about.html">About</a>
+                </li>
+                <li class="nav-item register-link">
+                    <a class="nav-link" href="instructor.html">Instructor</a> 
+                </li>
+                <li class="nav-item register-link">
+                    <a class="nav-link" href="register.html">Sign Up</a>
+                </li>
+                <li class="nav-item register-link">
+                    <a class="nav-link" href="contributersProfile.html">Contributors</a>
+                </li>
+            </ul>
+        </div>
+        <a class="nav-link ml-md-auto" href="beyondztm.html">Beyond Zero to Mastery</a>
+    </nav>
+
+    <div class="animated bounce">
+        <div class="container-fluid header-container parallax">
+            <div class="header-container-bg-fade">
+                <div id="particles-js"></div>
+                <div class="header-content">
+                    <h1>
+                        <div draggable="true">Web Development <br></div>
+                        <hr>
+                        <a href="https://www.udemy.com/course/the-complete-web-developer-zero-to-mastery/"
+                            target="_blank">Zero To<span class="masteryColor"> Mastery</span></a>
+                    </h1>
+                    <a href="https://www.udemy.com/course/the-complete-web-developer-zero-to-mastery/" id="course-button" class="btn btn-danger" target="_blank">View Course</a>
+                </div>
+            </div>
 
 
-<div id="footer">
-37925@students.ausd.net
-</div>
+            <div class="container-fluid details-container">
+                <div class="row">
+                    <div class=" col-sm-12 col-lg-6">
+                        <img src="resources/images/indexPagePic.png" id="course-img" alt="Course image">
+                    </div>
+                    <div class="col-sm-12 col-lg-6">
+                        <div class="course-details-content">
+                            <h2 class="animated bounce">Why this Course?</h2>
+                            <p class="paragraph-block">
+                                <!--<p>Do you imagine yourself working as a web developer but don't know where to start</p>
+                                <p>You want to learn the basics that can get you up and running quickly?</p>
+                                <p>Do you want to make money in 2020?</p>
+                                <br>
+                                <!--<p>If you answered YES to any of the above, then this is the course you're looking for.</p>-->
+                            <ul>
 
+                                <li> <strong>*</strong> <h4>Do you imagine yourself working as a web developer but don't
+                                    know where to start?</h4></li></br>
+                                <li> <strong>*</strong><h4>You want to learn the basics that can get you up and running
+                                    quickly?</h4> </li></br>
+                                <li> <strong>*</strong><h4> Do you want to make money in 2020?</h4></li></br>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="container-fluid software-details">
+                <h4>In this course you will learn the basics of the following technologies:</h4><br>
+                <div class="row justify-content-center">
+                    <a href="https://www.w3schools.com/html/html5_intro.asp" target="_blank">
+                        <div class="col-md-3 col-sm-12">
+                            <div class="card text-center">
+                                <div class="card-body">
+                                    <h5 class="card-title">HTML 5</h5>
+                                    <p class="card-text">
+                                        <img src="resources/images/html5.png" alt="HTML 5">
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                    <a href="https://www.w3schools.com/css/" target="_blank">
+                        <div class="col-md-3 col-sm-12">
+                            <div class="card text-center">
+                                <div class="card-body">
+                                    <h5 class="card-title">CSS 3</h5>
+                                    <p class="card-text">
+                                        <img src="https://juststickers.in/wp-content/uploads/2014/05/CSS3-Mark-Shape-Cut.png"
+                                            alt="CSS 3">
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                    <a href="https://www.w3schools.com/bootstrap4/" target="_blank">
+                        <div class="col-md-3 col-sm-12">
+                            <div class="card text-center">
+                                <div class="card-body">
+                                    <h5 class="card-title">Bootstrap 4</h5>
+                                    <p class="card-text">
+                                        <img src="https://miro.medium.com/max/1024/1*9HanDsRU11ZMsgDGJwN96w.png"
+                                            alt="Bootstrap 4">
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                    <a href="https://www.w3schools.com/js/" target="_blank">
+                        <div class="col-md-3 col-sm-12">
+                            <div class="card text-center">
+                                <div class="card-body">
+                                    <h5 class="card-title">Javascript</h5>
+                                    <p class="card-text">
+                                        <img src="https://www.easyprogramming.net/logo/js.png" alt="Pure JavaScript/">
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                    <a href="https://reactjs.org/" target="_blank">
+                        <div class="col-md-3 col-sm-12">
+                            <div class="card text-center">
+                                <div class="card-body">
+                                    <h5 class="card-title">React</h5>
+                                    <p class="card-text">
+                                        <img src="https://raw.githubusercontent.com/rexxars/react-hexagon/HEAD/logo/react-hexagon.png"
+                                            alt="react">
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                    <a href="https://github.com/zero-to-mastery/start-here-guidelines" target="_blank">
+                        <div class="col-md-3 col-sm-12">
+                            <div class="card text-center">
+                                <div class="card-body">
+                                    <h5 class="card-title">Git + Github</h5>
+                                    <p class="card-text">
+                                        <img src="resources/images/git.svg" alt="Git + Github">
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                    <a href="https://www.w3schools.com/nodejs/nodejs_intro.asp" target="_blank">
+                        <div class="col-md-3 col-sm-12">
+                            <div class="card text-center">
+                                <div class="card-body">
+                                    <h5 class="card-title">Node JS</h5>
+                                    <p class="card-text">
+                                        <img src="https://nodejs.org/static/images/logos/nodejs-new-pantone-black.svg"
+                                            alt="Node.js">
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                    <a href="https://www.tutorialspoint.com/expressjs/" target="_blank">
+                        <div class="col-md-3 col-sm-12">
+                            <div class="card text-center">
+                                <div class="card-body">
+                                    <h5 class="card-title">Express JS</h5>
+                                    <p class="card-text">
+                                        <img src="resources/images/express.png" alt="Express js">
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                    <a href="https://www.w3schools.com/nodejs/nodejs_npm.asp" target="_blank">
+                        <div class="col-md-3 col-sm-12">
+                            <div class="card text-center">
+                                <div class="card-body">
+                                    <h5 class="card-title">NPM</h5>
+                                    <p class="card-text">
+                                        <img src="https://avatars2.githubusercontent.com/u/6078720?s=400&amp;v=4"
+                                            alt="NPM">
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                    <a href="https://www.tutorialspoint.com/postgresql/" target="_blank">
+                        <div class="col-md-3 col-sm-12">
+                            <div class="card text-center">
+                                <div class="card-body">
+                                    <h5 class="card-title">PostgresSQL</h5>
+                                    <p class="card-text">
+                                        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/29/Postgresql_elephant.svg/1000px-Postgresql_elephant.svg.png"
+                                            alt="PostgresSQL">
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                    <a href="https://www.w3schools.com/sql/" target="_blank">
+                        <div class="col-md-3 col-sm-12">
+                            <div class="card text-center">
+                                <div class="card-body">
+                                    <h5 class="card-title">SQL</h5>
+                                    <p class="card-text">
+                                        <img src="https://crmtipoftheday.com/wp-content/uploads/2017/10/Database-250x250.png"
+                                            alt="SQL">
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                    <a href="https://graphql.org/" target="_blank">
+                        <div class="col-md-3 col-sm-12">
+                            <div class="card text-center">
+                                <div class="card-body">
+                                    <h5 class="card-title">GraphQL</h5>
+                                    <p class="card-text">
+                                        <img src="https://upload.wikimedia.org/wikipedia/commons/1/17/GraphQL_Logo.svg"
+                                            alt="GraphQL">
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                    <h4> The course is constantly being updated with the most recent technologies, frameworks,
+                        resources, and everything you need to become an amazing developer in an evolving world!</h4>
+                </div>
+            </div>
+
+            <div class="container-fluid footer-container">
+                <div class="a2a_kit a2a_kit_size_32 a2a_default_style" style="line-height: 32px">
+                    <h5>If you enjoyed the course like I did, share it so more people can enjoy it!</h5>
+                    <div class="buttons">
+                        <a class="a2a_button_facebook"><i class="fab fa-facebook fa-2x"></i></a>
+                        <a class="a2a_button_twitter"><i class="fab fa-twitter fa-2x"></i></a>
+                        <a class="a2a_button_email"><i class="fas fa-envelope-square fa-2x"></i></a>
+                        <a class="a2a_button_whatsapp"><i class="fab fa-whatsapp fa-2x"></i></a>
+                        <a class="a2a_button_instagram"><i class="fab fa-instagram fa-2x"></i></a>
+                    </div>
+                </div>
+
+                <div id="credits">
+                    Made by CWD &copy; All rights reserved by ZTM
+                </div>
+            </div>
+        </div>
+
+        <script src="resources/scripts/particles.js"></script>
+        <script src="resources/scripts/app.js"></script>
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+            integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
+            </script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+            integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous">
+            </script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+            integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous">
+            </script>
+        <script src="https://code.jquery.com/jquery-3.4.1.min.js"
+            integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.9"></script>
+        <script type="text/javascript" src="resources/scripts/script.js"></script>
+        <script async src="https://static.addtoany.com/menu/page.js"></script>
 </body>
+
 </html>
