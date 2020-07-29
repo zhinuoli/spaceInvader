@@ -1,135 +1,170 @@
-<html>
+<!DOCTYPE html>
+<html lang="zh">
 <head>
-<style>
-#header {
-    background:#005480;
-    color:white;
-    text-align:center;
-    padding:4px;
-    font-size:20px;
-    font-family:"Comic Sans MS";
-}
-#content { scrolling: yes;
-background:#E6E6FA;
-color:#ffffb3;
-width:90%;
-height:700px; 
-Float:left;
-text-align:center;
-font-family:"Comic Sans MS";
-overflow:scroll;
-}
-#nav {
-    background:#bf80ff;
-    color:#ffff80;
-    width:10%;
-    height:700px;
-    float:left;
-    font-size:30px;
-    font-family: papyrus;
-}
-#footer { background:#aaaaaa;}
-
-table{
-color:#ff6666;
-font-family:"Comic Sans MS";
-width:80%;
-    border: solid 10px #d2a77a;
-}
-table td {
-    border: dashed 2px #0000ff;
-}
-tr:nth-child(even){background-color: #99ddff}
-tr:nth-child(odd){background-color: #ffb3ff}
-th {
-    background-color: #4CAF50;
-    color: white;
-}
-td:hover{background-color:white}
-</style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Love Between Us</title>
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="./css/main.css">
 </head>
-<body link=blueviolet vlink=purple alink=green>
-<center>
-<div id="header">
-<h1>About</h1>
-</div>
 
-<div id="content">
-<h1>Schedule</h1>
-<br>
-<table align="center">
-  <tr>
-    <th>Monday</th>
-    <th>Tuesday</th>
-    <th>Wednesday</th>
-    <th>Thursday</th>
-    <th>Friday</th>
-  </tr>
-  <tr>
-    <td>ELD 3</td>
-    <td>ELD 3</td>
-    <td>ELD 3</td>
-    <td>ELD 3</td>
-    <td>ELD 3</td>
-  </tr>
-  <tr>
-    <td>Mdrn Wld His</td>
-    <td>Mdrn Wld His</td>
-    <td>Mdrn Wld His</td>
-    <td>Mdrn Wld His</td>
-    <td>Mdrn Wld His</td>
-  </tr>
-  <tr>
-    <td>ELD 3</td>
-    <td>ELD 3</td>
-    <td>ELD 3</td>
-    <td>ELD 3</td>
-    <td>ELD 3</td>
-  </tr>
-  <tr>
-    <td>Alg 2 H</td>
-    <td>Alg 2 H</td>
-    <td>Alg 2 H</td>
-    <td>Alg 2 H</td>
-    <td>Alg 2 H</td>
-  </tr>
-  <tr>
-    <td>Computer Science</td>
-    <td>Computer Science</td>
-    <td>Computer Science</td>
-    <td>Computer Science</td>
-    <td>Computer Science</td>
-  </tr>
-  <tr>
-    <td>Tennis</td>
-    <td>Tennis</td>
-    <td>Tennis</td>
-    <td>Tennis</td>
-    <td>Tennis</td>
-  </tr>
-</table>
-<br>
-<h1>what you like to do</h1>
-<ul>
-<li>Read more books
-<li>Sleep more
-<li>Eat less snacks
-<li>Read more newspaper!
-</ul>
-<br>
-<h1>Image of myself</h1>
-<br>
-<img src=IMG_1166.JPG height=400>
-<br>
-<h1>HOHOHO! My friends's link</h1>
-<br>
-<a href=http://katelynmaykhaing.atwebpages.com>May</a>
-<a href=http://arielliu.atwebpages.com>Ariel</a>
-<a href=http://willt.atwebpages.com>Will</a>
-<a href=http://teachers.ausd.net/cavenshen>Mr. Shen</a>
-<br>
-<br>
-</div>
+<body>
+    <audio src="music.mp3" autoplay="true" loop="loop"></audio>
+    <div id="back">
+        <div class="mask"></div>
+        <div id="carousel"  class="carousel slide carousel-fade carousel-position">
+            <div class="carousel-inner" style="width: 100%;height: 100%;" id="background">
+                <div class="item active" style="width: 100%;height: 100%;">
+                    <div style="width: 100%;height: 100%;background:url(./img/start.jpg);background-size: cover;"></div>
+                </div>
+                <div class="item" style="width: 100%;height: 100%;">
+                    <div style="width: 100%;height: 100%;background:url(./img/1.jpg);background-size: cover;"></div>
+                </div>
+                <div class="item" style="width: 100%;height: 100%;">
+                    <div style="width: 100%;height: 100%;background-image: url(./img/2.jpg) ;background-size: cover;"></div>
+                </div>
+                <div class="item" style="width: 100%;height: 100%;">
+                    <div style="width: 100%;height: 100%;background-image: url(./img/3.jpg) ;background-size: cover;"></div>
+                </div>
+                <div class="item" style="width: 100%;height: 100%;">
+                    <div style="width: 100%;height: 100%;background-image: url(./img/4.jpg) ;background-size: cover;"></div>
+                </div>
+                <div class="item" style="width: 100%;height: 100%;">
+                    <div style="width: 100%;height: 100%;background-image: url(./img/5.jpg) ;background-size: cover;"></div>
+                </div>
+                <div class="item" style="width: 100%;height: 100%;">
+                    <div style="width: 100%;height: 100%;background-image: url(./img/6.jpg) ;background-size: cover;"></div>
+                </div>
+                <div class="item" style="width: 100%;height: 100%;">
+                    <div style="width: 100%;height: 100%;background-image: url(./img/7.jpg) ;background-size: cover;"></div>
+                </div>
+                <div class="item" style="width: 100%;height: 100%;">
+                    <div style="width: 100%;height: 100%;background-image: url(./img/8.jpg) ;background-size: cover;"></div>
+                </div>
+                <div class="item" style="width: 100%;height: 100%;">
+                    <div style="width: 100%;height: 100%;background-image: url(./img/9.jpg) ;background-size: cover;"></div>
+                </div>
+                <div class="item" style="width: 100%;height: 100%;">
+                    <div style="width: 100%;height: 100%;background-image: url(./img/10.jpg) ;background-size: cover;"></div>
+                </div>
+                <div class="item" style="width: 100%;height: 100%;">
+                    <div style="width: 100%;height: 100%;background-image: url(./img/11.jpg) ;background-size: cover;"></div>
+                </div>
+                <div class="item" style="width: 100%;height: 100%;">
+                    <div style="width: 100%;height: 100%;background-image: url(./img/12.jpg) ;background-size: cover;"></div>
+                </div>
+                <div class="item" style="width: 100%;height: 100%;">
+                    <div style="width: 100%;height: 100%;background-image: url(./img/13.jpg) ;background-size: cover;"></div>
+                </div>
+                <div class="item" style="width: 100%;height: 100%;">
+                    <div style="width: 100%;height: 100%;background-image: url(./img/14.jpg) ;background-size: cover;"></div>
+                </div>
+                <div class="item" style="width: 100%;height: 100%;">
+                    <div style="width: 100%;height: 100%;background-image: url(./img/15.jpg) ;background-size: cover;"></div>
+                </div>
+                <div class="item" style="width: 100%;height: 100%;">
+                    <div style="width: 100%;height: 100%;background-image: url(./img/16.jpg) ;background-size: cover;"></div>
+                </div>
+                <div class="item" style="width: 100%;height: 100%;">
+                    <div style="width: 100%;height: 100%;background-image: url(./img/17.jpg) ;background-size: cover;"></div>
+                </div>
+                <div class="item" style="width: 100%;height: 100%;">
+                    <div style="width: 100%;height: 100%;background-image: url(./img/18.jpg) ;background-size: cover;"></div>
+                </div>
+                <div class="item" style="width: 100%;height: 100%;">
+                    <div style="width: 100%;height: 100%;background-image: url(./img/end1.jpg);background-size: cover;"></div>
+                </div>
+                <div class="item" style="width: 100%;height: 100%;">
+                    <div style="width: 100%;height: 100%;background-image: url(./img/end2.jpg);background-size: cover;"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal show" style="top:0;">
+        <div class="modal-dialog" style="opacity: .9">
+            <div class="modal-content" style="opacity:.85">
+                <div class="modal-header">
+                    <p class="text-center" style="color: #A94442;font-family: 'RushHourRegular', Arial, sans-serif; font-size: 3rem;">
+                        from 2015.02.17
+                    </p>
+                    <h1 class="text-center" style="color: #A94442;font-family: 'RushHourRegular', Arial, sans-serif;font-size: 7rem;">
+                        the times we together
+                    </h1>
+                    <div class="modal-body text-center" style="line-height: 1.5rem; font-family: 'AboutLoveRegular', Arial, sans-serif;font-size: 3.5rem;">
+                        <p>
+                            <span id="day" class="time-font" style="color:rgb(248, 237, 237)"></span>
+                            <span style="color:rgb(107, 71, 71)">days</span>
+                            <span id="hour" class="time-font" style="color:rgb(248, 237, 237)"></span>
+                            <span style="color:rgb(107, 71, 71)">hours</span>
+                            <span id="minute" class="time-font" style="color:rgb(248, 237, 237)"></span>
+                            <span style="color:rgb(107, 71, 71)">min</span>
+                            <span id="second" class="time-font" style="color:rgb(248, 237, 237)"></span>
+                            <span style="color:rgb(107, 71, 71)">sec</span>
+                        </p>
+                    </div>
+                </div>
+                <div class="modal-body text-center" style="line-height: 2rem;font-family: 'ZaoZiRegular', Arial, sans-serif;font-size: 3rem;">
+                    <p class="text-center" style="color:rgb(255, 255, 255);font-size: 17px" id="say"></p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script type="text/javascript" src="./js/jquery-1.12.2.min.js"></script>
+    <script type="text/javascript" src="./js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="./js/count-time.js"></script>
+    <script>
+    $(function() {
+        // 设置起始日期
+        countTime('2015/02/17 14:32', 'day', 'hour', 'minute', 'second');
+        var days = $('#day').text();
 
+        // 设置标题
+        if (parseInt(days / 365) != 0) {
+            $(document).attr("title", "相伴" + parseInt(days / 365) + "年，感谢有你");
+        } else if (parseInt(days / 30) != 0) {
+            $(document).attr("title", "相伴" + parseInt(days / 30) + "年，感谢有你");
+        } else
+            $(document).attr("title", "相伴" + days + "年，感谢有你");
+
+        //设置每一张图片对应的文字
+        var says = new Array(
+            "这是你推荐给我的第一首歌",
+            "第1句话",
+            "第2句话",
+            "第3句话",
+            "第4句话",
+            "第5句话",
+            "第6句话",
+            "第7句话",
+            "第8句话",
+            "第9句话",
+            "第10句话",
+            "第11句话",
+            "第12句话",
+            "第13句话",
+            "第14句话",
+            "第15句话",
+            "第16句话",
+            "第17句话",
+            "第18句话",
+            "第19句话",
+            "第20句话",
+        );
+
+        var start = function() {
+            var index = 0;
+            var rate = 14500;
+            $('#say').text(says[(index++) % says.length]);
+         	var _play = function () {
+         		$('#say').hide();
+                $('#say').text(says[(index++) % says.length]);
+                $('#say').fadeToggle();
+                $('#carousel').carousel('next');
+         	};
+            setInterval(_play, rate);
+        }();
+    });
+    </script>
 </body>
+
 </html>
